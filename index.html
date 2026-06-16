@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IONIC PRO | 家で叶える、サロン帰りのツヤ。</title>
+<meta name="description" content="IONIC PRO（イオニックプロ）は、低温スタイリングとマイナスイオンケアで理想のうるツヤストレートを叶えるヘアアイロンです。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header__inner">
+    <a href="#" class="header__logo">
+      <img src="assets/img/header-logo.png" alt="IONIC PRO" width="139" height="40" fetchpriority="high">
+    </a>
+    <button class="header__menu-btn" id="menuBtn" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="header__nav" id="headerNav">
+      <a href="#features" class="header__link">機能</a>
+      <a href="#howtouse" class="header__link">使い方</a>
+      <a href="#spec" class="header__link">スペック</a>
+      <a href="#uservoice" class="header__link">お客様の声</a>
+      <a href="#cta" class="header__cta">ご購入はこちら</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <img src="assets/img/fv-hero.png" alt="IONIC PROでストレートヘアをセットする女性" class="hero__bg" fetchpriority="high">
+    <div class="hero__inner">
+      <p class="hero__brand">IONIC PRO</p>
+      <h1 class="hero__title">家で叶える、<br><span>サロン帰り</span>のツヤ。</h1>
+      <p class="hero__desc">うるおいを守りながら、理想のストレートへ</p>
+      <img src="assets/img/hero-icons.png" alt="潤い&amp;ツヤ、低温スタイリング、イオンケア、時短設計" class="hero__icons" width="653" height="128" fetchpriority="high">
+      <a href="#cta" class="btn-primary">今すぐうるツヤ髪を試す</a>
+    </div>
+  </section>
+
+  <section id="features" data-src="partials/features.html" class="lazy-section"></section>
+  <section id="comparison" data-src="partials/comparison.html" class="lazy-section"></section>
+  <section id="howtouse" data-src="partials/howtouse.html" class="lazy-section"></section>
+  <section id="colors" data-src="partials/colors.html" class="lazy-section"></section>
+  <section id="spec" data-src="partials/spec.html" class="lazy-section"></section>
+  <section id="uservoice" data-src="partials/uservoice.html" class="lazy-section"></section>
+  <section id="cta" data-src="partials/cta.html" class="lazy-section"></section>
+  <section id="faq" data-src="partials/faq.html" class="lazy-section"></section>
+  <section id="finalcta" data-src="partials/finalcta.html" class="lazy-section"></section>
+  <section id="otherseries" data-src="partials/otherseries.html" class="lazy-section"></section>
+</main>
+
+<footer id="footer" data-src="partials/footer.html" class="lazy-section"></footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
