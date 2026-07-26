@@ -35,10 +35,12 @@
     const items = scope.querySelectorAll(".faq__item");
     items.forEach((item) => {
       const question = item.querySelector(".faq__question");
+      const icon = item.querySelector(".faq__icon");
       if (!question) return;
       question.addEventListener("click", () => {
         const isOpen = item.classList.toggle("is-open");
         question.setAttribute("aria-expanded", String(isOpen));
+        if (icon) icon.textContent = isOpen ? "−" : "+";
       });
     });
   }

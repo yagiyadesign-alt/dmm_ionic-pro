@@ -13,7 +13,7 @@
 <header class="header">
   <div class="container header__inner">
     <a href="#" class="header__logo">
-      <img src="assets/img/header-logo.png" alt="IONIC PRO" width="139" height="40" fetchpriority="high">
+      <img src="assets/img/header-logo.png" alt="IONIC PRO" width="202" height="58" fetchpriority="high">
     </a>
     <button class="header__menu-btn" id="menuBtn" aria-label="メニューを開く" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -30,12 +30,22 @@
 
 <main>
   <section class="hero">
-    <img src="assets/img/fv-hero.png" alt="IONIC PROでストレートヘアをセットする女性" class="hero__bg" fetchpriority="high">
+    <div class="hero__photo">
+      <picture>
+        <source media="(max-width: 768px)" srcset="assets/img/hero-photo-sp.png">
+        <img src="assets/img/fv-hero.png" alt="IONIC PROでストレートヘアをセットする女性" class="hero__bg" fetchpriority="high">
+      </picture>
+      <div class="hero__bg-fade" aria-hidden="true"></div>
+    </div>
     <div class="hero__inner">
+      <img src="assets/img/hero-brand.png" alt="IONIC PRO" class="hero__brand-img" width="126" height="23">
       <p class="hero__brand">IONIC PRO</p>
       <h1 class="hero__title">家で叶える、<br><span>サロン帰り</span>のツヤ。</h1>
       <p class="hero__desc">うるおいを守りながら、理想のストレートへ</p>
-      <img src="assets/img/hero-icons.png" alt="潤い&amp;ツヤ、低温スタイリング、イオンケア、時短設計" class="hero__icons" width="653" height="128" fetchpriority="high">
+      <picture>
+        <source media="(max-width: 768px)" srcset="assets/img/hero-icons-sp.png">
+        <img src="assets/img/hero-icons.png" alt="潤い&amp;ツヤ、低温スタイリング、イオンケア、時短設計" class="hero__icons" width="653" height="128" fetchpriority="high">
+      </picture>
       <a href="#cta" class="btn-primary">今すぐうるツヤ髪を試す</a>
     </div>
   </section>
