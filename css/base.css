@@ -356,7 +356,8 @@ button {
   .btn-primary,
   .btn-primary--small {
     width: 100%;
-    padding: 16px 40px;
-    font-size: 24px;
+    padding: 16px 20px;
+    font-size: 18px;
+    white-space: nowrap;
   }
 }
