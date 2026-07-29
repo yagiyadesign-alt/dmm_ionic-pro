@@ -337,12 +337,13 @@ button {
   }
 
   .hero__title {
-    font-size: 38px;
+    font-size: clamp(28px, 9vw, 38px);
     font-weight: 600;
   }
 
   .hero__desc {
-    font-size: 16px;
+    font-size: clamp(13px, 4.2vw, 16px);
+    letter-spacing: normal;
   }
 
   .hero__icons {
